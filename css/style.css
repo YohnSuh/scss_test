@@ -33,4 +33,17 @@
   margin-right: 0;
 }
 
-/*# sourceMappingURL=style.css.map */
+input {
+  display: none;
+}
+
+label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: cornflowerblue;
+}
+
+#check:checked + label {
+  background: lightcoral;
+}/*# sourceMappingURL=style.css.map */
